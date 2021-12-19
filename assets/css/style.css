@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lato&family=Mukta&display=swap');
 body {
-    background: blue;
+    background-color: rgb(224, 251, 252);
+    margin: 0;
+    padding: 0;
 }
+
+/* Heading */
+
+#heading {
+    font-size: 300%;
+    font-family: Mukta, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Carousel cards */
+
+#ex1 , #ex2, #ex3, #random {
+    padding: 20px;
+    margin: 20px auto;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 24px 5px rgba(3,2,2,0.75);
+    background-color: rgb(41, 50, 65);
+}
+
+/* color palettes  licorice rgb(41, 50, 65), regent st blue rgb(152, 193, 217), light cyan rgb(224, 251, 252), burnt Sienna rgb(238, 108, 77), mattise rgb(61, 90, 128)  */
