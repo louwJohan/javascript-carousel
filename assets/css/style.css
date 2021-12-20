@@ -23,9 +23,9 @@ body {
     height: 350px;
     width: 600px;
     margin: 0 auto;
-    
-}
-#ex1 , #ex2, #ex3, #random {
+    }
+
+ #ex1 , #ex2, #ex3, #random {
     position:absolute;
     margin: 0 auto;
     height: 90%;
