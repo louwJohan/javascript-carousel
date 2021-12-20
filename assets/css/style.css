@@ -12,18 +12,69 @@ body {
     font-family: Mukta, sans-serif;
     margin: 0 auto;
     text-align: center;
+    padding: 70px; 
+    color: rgb(41, 50, 65) ;
 }
 
 /* Carousel cards */
 
+.carousel_track {
+    position: relative;
+    height: 350px;
+    width: 500px;
+    margin: 0 auto;
+    
+}
 #ex1 , #ex2, #ex3, #random {
-    padding: 20px;
-    margin: 20px auto;
+    position:absolute;
+    margin: 0 auto;
     height: 300px;
     width: 500px;
     border-radius: 10px;
-    box-shadow: 10px 10px 24px 5px rgba(3,2,2,0.75);
+    box-shadow: 5px 5px 10px 5px rgba(3,2,2,0.3);
     background-color: rgb(41, 50, 65);
+    top: 0;
+    bottom: 0;
 }
 
+h2 {
+ color: rgb(238, 108, 77);
+}
+
+.carousel_button {
+    position: absolute;
+    top: 35%;
+    background: transparent;
+    font-weight: bold;
+    border: none;
+    font-size: 200%;
+    cursor: pointer;
+}
+ 
+.button_left {
+    left: -50px;
+}
+
+.button_right {
+    right: -50px;
+}
+
+.nav_carousel {
+    position: absolute;
+    bottom: 0;   
+    right: 35%;
+}
+
+.slide_indicator {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(41, 50, 65 ,0.3);
+    margin: 0 10px;
+}
+
+.slide_indicator.current_slide {
+    background-color: rgb(41, 50, 65, 0.75);
+}
 /* color palettes  licorice rgb(41, 50, 65), regent st blue rgb(152, 193, 217), light cyan rgb(224, 251, 252), burnt Sienna rgb(238, 108, 77), mattise rgb(61, 90, 128)  */
