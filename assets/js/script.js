@@ -1,2 +1,6 @@
 let carouselSlides = document.getElementsByClassName("carousel");
-console.log(carouselSlides)
+
+let slideWidth = carouselSlides[0].clientWidth;
+
+
+

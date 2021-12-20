@@ -21,15 +21,15 @@ body {
 .carousel_track {
     position: relative;
     height: 350px;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     
 }
 #ex1 , #ex2, #ex3, #random {
     position:absolute;
     margin: 0 auto;
-    height: 300px;
-    width: 500px;
+    height: 90%;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 5px rgba(3,2,2,0.3);
     background-color: rgb(41, 50, 65);
@@ -78,3 +78,50 @@ h2 {
     background-color: rgb(41, 50, 65, 0.75);
 }
 /* color palettes  licorice rgb(41, 50, 65), regent st blue rgb(152, 193, 217), light cyan rgb(224, 251, 252), burnt Sienna rgb(238, 108, 77), mattise rgb(61, 90, 128)  */
+
+
+/* Media queries */
+
+@media only screen and (max-width: 700px) {
+    .carousel_track {
+        width: 300px;
+        height: 200px;
+    }
+
+    #ex1 , #ex2, #ex3, #random {
+        position:absolute;
+        margin: 0 auto;
+        height: 90%;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px 2px rgba(3,2,2,0.3);
+    }
+
+    .slide_indicator{
+        width: 10px;
+        height: 10px;
+        margin: 0 auto;
+        right: 40%;
+        padding-top: 8px;
+        
+    }
+
+    .carousel_button {
+        font-size: 100%;
+    }
+
+    .button_left {
+        left: -30px;
+    }
+
+    .button_right {
+        right: -30px;
+    }
+}
+
+@media  only screen and (max-width: 350px)  {
+    .carousel_track {
+        width: 200px;
+        height: 200px;
+    }
+}
