@@ -17,10 +17,13 @@ body {
 }
 
 /* Carousel cards */
-.carousel_container {
-    height: 100%;
+.carousel_container{
+    width: 600px;
+    height: 350px;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
 }
-
 .carousel_track {
     position: relative;
     height: 350px;
@@ -29,16 +32,13 @@ body {
     transition: transform 250ms ease-in;
     }
 
- #ex1 , #ex2, #ex3, #random {
-    position:absolute;
+ #ex1 , #ex2, #random, #timer {
+    position: absolute;
     margin: 0 auto;
     height: 100%;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px 5px rgba(3,2,2,0.3);
     background-color: rgb(41, 50, 65);
-    top: 0;
-    bottom: 0;
+    
 }
 
 h2 {
@@ -83,10 +83,10 @@ h2 {
         height: 200px;
     }
 
-    #ex1 , #ex2, #ex3, #random {
+    #ex1 , #ex2, #random, #timer {
         position:absolute;
         margin: 0 auto;
-        height: 90%;
+        height: 100%;
         width: 100%;
         border-radius: 10px;
         box-shadow: 2px 2px 5px 2px rgba(3,2,2,0.3);
