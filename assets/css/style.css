@@ -17,18 +17,22 @@ body {
 }
 
 /* Carousel cards */
+.carousel_container {
+    height: 100%;
+}
 
 .carousel_track {
     position: relative;
     height: 350px;
     width: 600px;
     margin: 0 auto;
+    transition: transform 250ms ease-in;
     }
 
  #ex1 , #ex2, #ex3, #random {
     position:absolute;
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
     width: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 5px rgba(3,2,2,0.3);
@@ -42,27 +46,18 @@ h2 {
 }
 
 .carousel_button {
-    position: absolute;
-    top: 35%;
+    position: relative;
     background: transparent;
     font-weight: bold;
     border: none;
     font-size: 200%;
     cursor: pointer;
 }
- 
-.button_left {
-    left: -50px;
-}
-
-.button_right {
-    right: -50px;
-}
 
 .nav_carousel {
-    position: absolute;
+    position: relative;
     bottom: 0;   
-    right: 35%;
+    left: 45%
 }
 
 .slide_indicator {
@@ -109,15 +104,6 @@ h2 {
     .carousel_button {
         font-size: 100%;
     }
-
-    .button_left {
-        left: -30px;
-    }
-
-    .button_right {
-        right: -30px;
-    }
-}
 
 @media  only screen and (max-width: 350px)  {
     .carousel_track {
